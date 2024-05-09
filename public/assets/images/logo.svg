@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137.853" height="75.369" viewBox="0 0 137.853 75.369">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.001" x2="0.5" y2="-0.001" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4aad8e"/>
+      <stop offset="0.352" stop-color="#038b5d"/>
+      <stop offset="1" stop-color="#15674d"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo" transform="translate(-3.992 -5.7)">
+    <g id="Group_2545" data-name="Group 2545" transform="translate(26.835 5.7)">
+      <path id="Path_1275" data-name="Path 1275" d="M37.607,26.2,34.315,36.5h18.48l3.611-10.3ZM31.341,45.423H49.609l2.443-6.9H33.572Zm-2.23,6.9H47.166l1.7-4.992H30.7Zm-1.487,4.779H45.573l1.062-2.974H28.58Zm-1.168,3.611H44.3l.85-2.337H27.2ZM25.5,63.478H43.236l.531-1.593H26.031Z" transform="translate(-25.5 -4.428)" fill="url(#linear-gradient)"/>
+      <path id="Path_1276" data-name="Path 1276" d="M38.577,24.073h18.8l1.168-3.4,10.833.212L53.446,5.7,28.7,21.631l10.727-.425Z" transform="translate(-25.301 -5.7)" fill="#051e62"/>
+    </g>
+    <path id="Path_1277" data-name="Path 1277" d="M78.519,7.753S104.008,13.17,64.5,39.4c0,0,24.533-13.913,24-24.958,0,0,.319-8.921-18.586-7.434A63.588,63.588,0,0,1,78.519,7.753Z" transform="translate(3.755 0.071)" fill="#051e62"/>
+    <path id="Path_1278" data-name="Path 1278" d="M13.984,71.849S-11.505,66.433,28,40.2c0,0-24.533,13.913-24,24.958,0,0-.319,8.921,18.586,7.434A63.587,63.587,0,0,1,13.984,71.849Z" transform="translate(0 2.141)" fill="#051e62"/>
+    <g id="Group_2546" data-name="Group 2546" transform="translate(50.845 38.757)">
+      <text id="NDIRA" transform="translate(1 26)" fill="#15674d" font-size="27" font-family="Aldine721BT-LightItalic, Aldine721 Lt BT" font-weight="300" font-style="italic"><tspan x="0" y="0">NDIRA</tspan></text>
+    </g>
+    <text id="Gateway_to_Prosperity" data-name="Gateway to Prosperity" transform="translate(29.055 78.069)" font-size="12" font-family="TwCenMT-Regular, Tw Cen MT"><tspan x="0" y="0">Gateway to Prosperity</tspan></text>
+  </g>
+</svg>
