@@ -28,6 +28,22 @@ const AuthForm = ({ type, creds, setCreds, submitting, handleSubmit }) => {
         onSubmit={handleSubmit}
         className="mt-10 w-full max-w-2x1 flex flex-col gap-7 glassmorphism"
       >
+        {type === "Up" && (
+          <label>
+            <span className="font-satoshi font-semibold text-base text-gray-700">
+              username
+            </span>
+            <input
+              value={creds.username}
+              onChange={(e) => {
+                setCreds({ ...creds, username: e.target.value });
+              }}
+              placeholder="your username"
+              required
+              className="form_input"
+            ></input>
+          </label>
+        )}
         <label>
           <span className="font-satoshi font-semibold text-base text-gray-700">
             email

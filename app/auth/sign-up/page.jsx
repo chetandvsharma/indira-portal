@@ -12,28 +12,31 @@ const SignUp = () => {
   const [submitting, setSubmitting] = useState(false);
   const [creds, setCreds] = useState({
     email: "",
+    username: "",
     password: "",
   });
 
   const signUp = async (e) => {
     e.preventDefault();
-    console.log("creds ==> ", creds);
     setSubmitting(true);
     try {
-      const response = await fetch("/api/auth/sign-up", {
+      const response = await fetch("http://localhost:4000/auth/sign-up", {
         method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify({
-            email: creds.email,
-            password: creds.password,
+          email: creds.email,
+          username: creds.username,
+          password: creds.password,
         }),
       });
-      console.log("response => ", response);
+
       if (response.ok) {
-      console.log("response ok=> ", response);
         router.push("/auth/sign-in");
       }
     } catch (error) {
-      console.log(error);
+      console.error(error);
     } finally {
       setSubmitting(false);
     }
@@ -41,12 +44,12 @@ const SignUp = () => {
 
   return (
     <AuthForm
-    type="Up"
-    creds={creds}
-    setCreds={setCreds}
-    submitting={submitting}
-    handleSubmit={signUp}
-  />
+      type="Up"
+      creds={creds}
+      setCreds={setCreds}
+      submitting={submitting}
+      handleSubmit={signUp}
+    />
   );
 };
 
